@@ -1,0 +1,85 @@
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 150px 100px 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left {
+    max-width: 50%;
+   
+}
+
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.subtext, li {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    max-width: 200px;
+}
+
+p.card {
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 4px 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}

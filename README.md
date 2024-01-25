@@ -1,0 +1,1 @@
+In this exercise, I will be creating a landing page from scratch, trying to the best of my ability to make it match the screenshot provided.
