@@ -1,3 +1,11 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -55,21 +63,33 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 100px;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    gap: 33px;
 }
 
 .card {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    max-width: 200px;
+    width: 150px;
     
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto 150px auto;
+    /* padding-left: auto; */
+    /* width: 699px; */
+}
+
+.quoteText {
+    padding: 90px 250px;
 }
 
 img {
     display: block;
     margin: auto;
+    border-radius: 8px;
 }
 
 .info {
